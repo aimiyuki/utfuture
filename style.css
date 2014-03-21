@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #01171c;
+	background: #dfe7e8;
+}
+
+
+header {
+	background-color:#030032;
+	width: 100%;
+	height:150px;
+}
+
+
+.logo { 	
+	margin-top: 15px ;
+	float: left;
+}
+
+.horizontal-nav li {
+	float: left;
+	list-style: none;
+	border: solid 1px #262638;
+	text-align: center;
+}
+
+.menu-container li {
+	width: 170px;
+	padding: 7px 0;
+}
+
+a {
+	color: #a0a0a4;
+	text-decoration: #a0a0a4;
+}
+
+.navigation-bar li{
+	width: 180px;
+	padding: 6px 0;
+}
+
+.search-bar{
+	float: right;
+}
+
+
+.clear {
+	clear: both;
+}
