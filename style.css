@@ -15,6 +15,11 @@ header {
 	height:150px;
 }
 
+a {
+	color: #a0a0a4;
+	text-decoration: #a0a0a4;
+}
+
 
 .logo { 	
 	margin-top: 15px ;
@@ -33,10 +38,6 @@ header {
 	padding: 7px 0;
 }
 
-a {
-	color: #a0a0a4;
-	text-decoration: #a0a0a4;
-}
 
 .navigation-bar li{
 	width: 180px;
