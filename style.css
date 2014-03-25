@@ -1,6 +1,13 @@
-* {
+div, header, body {
 	margin: 0;
 	padding: 0;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
 body {
@@ -13,42 +20,107 @@ header {
 	background-color:#030032;
 	width: 100%;
 	height:150px;
-}
 
-a {
-	color: #a0a0a4;
-	text-decoration: #a0a0a3;
 }
 
 
 .logo { 	
-	margin-top: 15px ;
+	margin-top: 25px ;
 	float: left;
+	padding:20;
 }
 
-.horizontal-nav li {
-	float: left;
-	list-style: none;
-	border: solid 1px #262638;
-	text-align: center;
-}
 
 .menu-container li {
 	width: 170px;
-	padding: 7px 0;
+	padding: 50px 0;
 }
 
 
-.navigation-bar li{
-	width: 180px;
-	padding: 6px 0;
+
+
+li {
+	display: inline;
+	padding: 0 50px;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	font-size: 17px;
+	font-family: "Meiryo";
+
 }
+
+ul :after{
+	padding-bottom: 85;
+	text-align: left;
+	display: block;
+	clear: both;
+	visibility: hidden;
+
+}
+
+.mnav ul{
+	display: inline-block;
+	}
+
+
+
+a {
+	color: #a0a0a4;
+	text-decoration: #a0a0a4c;
+}
+
+
+
 
 .search-bar{
 	float: right;
+	
+
 }
 
 
 .clear {
 	clear: both;
 }
+
+
+
+.main-content{
+	float:left;
+
+}
+
+.main-content {
+	width:600px;
+	float:left;
+	margin:20px;
+	clear:both;
+}
+
+
+.recent-articles{
+	position:fixed;
+	right:30px;
+	width:200px;
+	padding: ;
+	background-color: #c4c4c4;
+	text-align: center;
+	font-family: "Meiryo"
+
+}
+
+.popular-author{
+	
+	float:right;
+	width:200px;
+	padding:25px 10px 0 10px;
+	margin: 20px;
+	background-color: #c4c4c4;
+	text-align: center;
+	font-family: "Meiryo"
+
+
+}
+
+	
