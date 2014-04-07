@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -28,88 +35,172 @@ header {
 
 
 .logo { 	
-	margin-top: 25px ;
+	margin-top: 10px ;
 	float: left;
 	padding:20px;
 }
 
 .search-bar {
-	float: right;
-	margin: 30px;
-	color:#050E82;
-	font-family:"Meiryo";
-	font-size:1.2em;
 
-	
+		float: right;
+		margin: 20px;
 }
 
 
-.horizontal-nav > li {
-	font-size:15px;
-	font-weight:bold;
-	color:#BDBDBD;
-	padding: 20 px;
-	float: left;
-	font-family: "Meiryo";
-
-}
 
 
 header a {
-	color: #a0a0a4;
+	color: #b3b3b3;
 	text-decoration: #a0a0a4c;
+	font-family:"Meiryo";
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+ul, li {
+		display: inline;
+		color:#b3b3b3;
+		
+}
+
+.horizontal-nav {
+		font-size: 17px;
+		margin-left: 25%;
+		word-spacing: 8em;
+		line-height: 7em;
+
+		}
+
+
+.horizontal-nav2 {
+
+				float: left;
+				background-color: #1d1d3d;
+				width: 100%;
+				height: 34%;
+				word-spacing: 11.5em;
+				text-align: center;
+				line-height: 3em;
+}
+
+
+
+style {
+		margin: 20px;
+
+}
+
+
+.main-content{
+	margin:0 auto;
+
+
+
+
+}
+
+
+.row {
+
+	float: left;
+	text-indent: 1em;	
+    width: 500px;
+    height: 450px;
+	font-size: 12.5px;
+	line-height: 2em;
+
+}
+
+p {
+
+	font-family: "Meiryo"; 
+	color: #393434;
+	re
+}
+
+
+
+
+.topnews img {
+
+		margin:30px;
+		width: 600;
+		height: 400;
+				
+				
+
+}
+
+.picture img{
+
+	width: 200;
+	height: 150;
+	vertical-align: middle; 
+	float: left;
+
 	
 }
 
+.large-4 {
 
-nav.horizontal {
-	padding-bottom:23px;
-} 
 
-nav.horizontal ul li a{
-	display:block;
-	height:28px;
-	margin:2px 6px 2px 6px;
-	padding:15px 20px 0px 20px;
-	font-size:15px;
-	font-weight:bold;
-	color:#BDBDBD;
-	text-decoration:none;
-	border-radius: 2px;
 }
 
 
+ box-shadow: 0 0 2px rgba(0, 0, 0, .5);
 
-nav.horizontal ul li a:hover{
-	background-image:-moz-linear-gradient(top, #161616, #030032);
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#070E69), to(#22226e), color-stop(1,#ABFFF1));
-clear:both;
+
+
+.topnews {
+
+		margin: 20px;
+		padding-top: 10px ;
+		width: 800px ; 
+		height: 300px ;
+
 }
 
-.main-content {
-          float: left;
-          width: 800px;
-          margin: 20px;
-          box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+.text, .text2 {
+		font-family:"Meiryo";
+		color: #161617;
+		text-align: center;
+		line-height: 5em;
+		
+
+
 }
 
-h4, h3 {
+
+.large-5 {
+		    line-height: 2em;
+
+}
+
+h4, h5, h3 {
 	
 	font-family:"Meiryo";
 	color: #161617;
 	text-align: center;
+	line-height: 5em;
+	font-weight: bold;
+	text-decoration: none;
+
 }
 
 .sidebar {
 
 		text-decoration: none;
 		float: right;
-        width: 300px;
-        padding: 10px 0;
+        width: 400px;
+        padding: 45px 0;
         text-align: center;
         box-shadow: 0 0 2px rgba(0, 0, 0, .5);
-        
-}
+        line-height: 5em;
+        margin: 20px;
+
+
+}		
 
  
 footer{
@@ -120,9 +211,7 @@ footer{
 }
 
 .
-
-
-
+ 
 
 
 
