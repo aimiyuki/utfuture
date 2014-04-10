@@ -1,8 +1,4 @@
-
-
-
-
-*{
+* {
 	margin: 0;
 	padding: 0;
 	border:0;
@@ -10,7 +6,6 @@
 }
 
 #wrapper {
-	width: 100%;
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -19,19 +14,16 @@
 body {
 	color: #01171c;
 	background: #dfe7e8;
-	
-   
 }
 
 
 header {
 	background-color:#030032;
 	width: 100%;
-	height: 25%;
 }
 
 
-.logo { 	
+.logo {
 	margin-top: 10px ;
 	float: left;
 	padding:20px;
@@ -40,101 +32,94 @@ header {
 
 header a {
 	color: #b3b3b3;
-	text-decoration: #a0a0a4c;
+	text-decoration: #a0a0a4;
 	font-family:"Meiryo";
 	font-weight: bold;
 	text-decoration: none;
-
 }
 
 
-ul, li {
-		display: inline;
-		color:#b3b3b3;
-		
+.horizontal ul, .horizontal li {
+	display: inline;
+	color:#b3b3b3;
+
 }
 
 .horizontal-nav {
-		font-size: 17px;
-		word-spacing: 6em;
-		line-height: 7em;
-		margin-left: 30px;
-
-		}
+	font-size: 17px;
+	word-spacing: 6em;
+	line-height: 7em;
+	margin-left: 30px;
+}
 
 
 .horizontal-nav2 {
 
-				float: left;
-				background-color: #1d1d3d;
-				width: 100%;
-				word-spacing: 11.5em;
-				text-align: center;
-				line-height: 3em;
+	float: left;
+	background-color: #1d1d3d;
+	width: 100%;
+	word-spacing: 11.5em;
+	text-align: center;
+	line-height: 3em;
 
 }
 
 
 
 input[type=text] {
-		width: 300px;
-		padding: 6px;
-		outline: none;
-		border: 1.5px solid #1d1d3d;
-		border-radius: 30px;
+	width: 300px;
+	padding: 6px;
+	outline: none;
+	border: 1.5px solid #1d1d3d;
+	border-radius: 30px;
 }
 
 
 .topnews img {
 
-		margin:20px;
-		width: 600px;
+	margin:20px;
+	width: 560px;
 }
 
 
 .topnews {
 
-		margin: 20px;
-		padding-top: 10px ;
-		width: 800px ; 
+	margin-left: 5%;
+	padding-top: 5%;
 }
 
 
-h1 { 
-
-	position: absolute;
-	margin: 20px;
-  	top:180px;
-  	background: #6b738c;
-  	width: 600px;
+h1 {
 	font-family:"Meiryo";
 	text-align: center;
-	line-height: 2.5em;
-	color: #161617;
-	font-weight: lighter;	
-	border-top: 8px solid;
-	border-color: #030032;
+	line-height: 1em;
+	font-weight: lighter;
 }
 
 
 article {
-
-	
-	text-indent: 1em;	
-	text-align: center;
+	text-indent: 1em;
 	font-size: 12.5px;
 	line-height: 2.5em;
-	font-family: "Meiryo"; 
+	font-family: "Meiryo";
 	color: #393434;
-	width:500px;
 	margin: 10px 20px 20px 20px ;
+	clear: both;
+}
+
+article h3, article h5 {
+	text-align: center;
+}
+
+article p {
+	padding: 0 30px;
 }
 
 article img {
-
+	float: left;
 	width:250px;
 	height: 200px;
-	margin: 0px 0px 20px 20px;
+	margin: 0px 0px 20px 100px;
 }
 
 .picture img{
@@ -144,16 +129,14 @@ article img {
 }
 
 
-h3 {
+.main-content h3 {
 	border-top: solid;
 	border-color: #030032;
-	width:600px;
 	margin-left: 20px;
-
 }
 
 h4, h5, {
-	
+
 	font-family:"Meiryo";
 	color: #161617;
 	text-align: center;
@@ -163,17 +146,53 @@ h4, h5, {
 
 }
 
-.latest, .popular{
 
-	float: right;
+.main-content {
+	float: left;
+	width: 60%;
 }
 
- 
+.main-nav {
+	float: right;
+	width: 30%;
+}
 
-.
- 
+.clear {
+	clear: both;
+}
 
 
+.popular img {
+	float: left;
+	width: 30%
 
+}
 
+.popular section {
+	clear: both;
+}
+
+#container {
+	width: 80%;
+	margin-left: 5%;
+}
+
+aside {
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+.latestarticle {
+
+	font-family: "Meiryo";
+	font-weight: lighter;
+}
+
+aside h4 h3 {
+
+	margin-top: 10%;
+	font-family:"Meiryo"
+	line-height: 1em;
+	font-weight: lighter;
+}
 
