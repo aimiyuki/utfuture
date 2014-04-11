@@ -5,6 +5,10 @@
 
 }
 
+* a {
+	text-decoration: none 
+}
+
 #wrapper {
 	margin: 0;
 	padding: 0;
@@ -12,8 +16,7 @@
 }
 
 body {
-	color: #01171c;
-	background: #dfe7e8;
+	color: #01171c 	background: ;
 }
 
 
@@ -89,7 +92,7 @@ input[type=text] {
 }
 
 
-h1 {
+.main-content h1 {
 	font-family:"Meiryo";
 	text-align: center;
 	line-height: 1em;
@@ -103,49 +106,36 @@ article {
 	line-height: 2.5em;
 	font-family: "Meiryo";
 	color: #393434;
-	margin: 10px 20px 20px 20px ;
 	clear: both;
+	border-top: solid;
+	border-color: #030032;
+	margin-bottom: 5%;
 }
 
-article h3, article h5 {
-	text-align: center;
-}
-
-article p {
-	padding: 0 30px;
-}
 
 article img {
 	float: left;
-	width:250px;
-	height: 200px;
-	margin: 0px 0px 20px 100px;
+	width: 40%;
+	padding-bottom: 2%;
+}
+
+article h3, h5 {
+	margin-left: 50%;
+
 }
 
 .picture img{
-
-	width: 200px;
-	height: 150px;
+	width: 100%;
 }
 
-
-.main-content h3 {
-	border-top: solid;
-	border-color: #030032;
-	margin-left: 20px;
-}
 
 h4, h5, {
-
 	font-family:"Meiryo";
 	color: #161617;
-	text-align: center;
 	line-height: 5em;
 	font-weight: bold;
 	text-decoration: none;
-
 }
-
 
 .main-content {
 	float: left;
@@ -161,17 +151,6 @@ h4, h5, {
 	clear: both;
 }
 
-
-.popular img {
-	float: left;
-	width: 30%
-
-}
-
-.popular section {
-	clear: both;
-}
-
 #container {
 	width: 80%;
 	margin-left: 5%;
@@ -183,16 +162,54 @@ aside {
 }
 
 .latestarticle {
-
 	font-family: "Meiryo";
 	font-weight: lighter;
+	float: left;
 }
 
-aside h4 h3 {
 
-	margin-top: 10%;
-	font-family:"Meiryo"
+.latest section {
+
+	margin: 5% 0% 30% 0%;
+	clear: both;
+}
+
+.latest h1 {
+	margin-bottom: 10%;
+	font-family:"Meiryo";
 	line-height: 1em;
+	font-weight: lighter;
+
+}
+
+.latest img {
+	float: left;
+	width: 50%
+}
+
+.latest a {
+	margin-top: 10%;
+
+}
+
+.popular img {
+	float: left;
+	width: 30%
+}
+
+
+.popular section {
+
+	margin-bottom: 30%;
+
+
+}
+
+.popular h1 {
+	margin: 20% 0% 10% 0%;
+	font-family:"Meiryo";
 	font-weight: lighter;
 }
 
+
+}
